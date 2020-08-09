@@ -6,6 +6,8 @@ const app = express();
 const db = require("./db/mongoose");
 const PORT = process.env.PORT || 5000;
 const ApiRouter = require("./routes/Api");
+const dotenv = require("dotenv");
+dotenv.config();
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
