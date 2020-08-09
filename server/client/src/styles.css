@@ -1,0 +1,58 @@
+
+body{
+  background-image: url("https://res.cloudinary.com/dps7y8nd7/image/upload/v1596983106/battlefield_sv5nzl.jpg");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+.project {
+
+}
+.battleCaption {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 20px;
+  color: white;
+  align-items: center;
+}
+/* .main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+} */
+
+.battleTile {
+  display: flex;
+  flex-direction: row;
+}
+
+.newTile {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(27, 27, 26, 0.986);
+  color: white;
+  border-radius: 3%;
+}
+
+.heading,
+.title {
+  margin: 0.5rem;
+}
+.image > img {
+  border-radius: 50%;
+  /* border: 3.5px solid red; */
+}
+
+.battleField {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  /* margin-top: 2.5rem; */
+
+  padding: 0%;
+  height: 100vh;
+}
+
+.templatText {
+  color: white;
+}
