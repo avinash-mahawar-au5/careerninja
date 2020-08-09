@@ -1,6 +1,6 @@
 import Axios from "axios";
 
-const Url = `http://localhost:5000/battles`;
+const Url = "/battles";
 
 export function getAllLocations() {
   let allLocations = Axios.get(`${Url}/list`);
